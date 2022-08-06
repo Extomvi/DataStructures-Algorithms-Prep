@@ -10,6 +10,7 @@ def twoSum(nums, target):
             if nums[j] == val:
                 return [i,j]
 
+#Optimized code
 def twoSum(nums, target):
     #Using a dictionary O(N)
     seen = {}
