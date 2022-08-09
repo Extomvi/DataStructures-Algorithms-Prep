@@ -16,4 +16,4 @@ def longestCommonPrefix(strs):
             break
     return result
 
-longestCommonPrefix(["leetcode", "leets", "leetc", "lettuce"])
+print(longestCommonPrefix(["leetcode", "leets", "leetc", "lettuce"]))
