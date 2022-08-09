@@ -10,10 +10,9 @@ def longestCommonPrefix(strs):
     last = strs[len(strs)-1]
     #print(first, last)
     for i in range(len(first)):
-        if first[i] ==  last[i]:
-            result = result + first[i]
-        else:
+        if first[i] !=  last[i]:
             break
+        result = result + first[i]
     return result
 
 print(longestCommonPrefix(["leetcode", "leets", "leetc", "lettuce"]))
