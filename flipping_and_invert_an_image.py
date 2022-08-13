@@ -39,4 +39,18 @@ def flippingImage(image):
         result.append(list(map(inverted, row[::-1])))
     return result
 
-print(flippingImage([[1,1,0],[1,0,1],[0,0,0]]))
+def flipAndInvertAnImage(image):
+    result = []
+    for row in image:
+        row = row[::-1] #reversing the elements in the row
+        invertedRow = [] #for storing the inverted row
+        for item in row:    #going through the elements in each row
+            if item == 1:   #checking and replacing 1 with 0 (inverting the elements)
+                item = 0
+            else:
+                item = 1
+            invertedRow.append(item) #adding the inverted item to the invertedRow list
+        result.append(invertedRow) #adding the list of inverted row into the result
+    return result
+
+print(flipAndInvertAnImage([[1,1,0],[1,0,1],[0,0,0]]))
