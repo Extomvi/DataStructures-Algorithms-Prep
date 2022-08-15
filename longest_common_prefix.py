@@ -8,7 +8,6 @@ def longestCommonPrefix(strs):
     result = ""
     first = strs[0]
     last = strs[len(strs)-1]
-    #print(first, last)
     for i in range(len(first)):
         if first[i] !=  last[i]:
             break
