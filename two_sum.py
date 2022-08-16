@@ -20,4 +20,15 @@ def twoSum(nums, target):
             return [seen[complement], i]
         seen[nums[i]] = i
 
-print(twoSum([2,7,11,15],9))
+#Using HashMap
+def two_sum(nums, target):
+    prevMap = {} #key:valye pair
+    for i, n in enumerate(nums):
+        diff = target - n
+        if diff in prevMap:
+            return [prevMap[diff], i]
+        prevMap[n] = i
+    return
+    
+
+print(two_sum([2,7,11,15],9))
