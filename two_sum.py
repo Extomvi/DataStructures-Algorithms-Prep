@@ -28,7 +28,7 @@ def two_sum(nums, target):
         if diff in prevMap:
             return [prevMap[diff], i]
         prevMap[n] = i
-    return
+    return []
     
 
 print(two_sum([2,7,11,15],9))
