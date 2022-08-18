@@ -7,12 +7,11 @@ def maximum_subarray(nums):
     currentSum = 0
 
     for n in nums:
-        if currentSum < 0:
+        if currentSum < 0: #resetting the value of current sum if the sum is less than 0
             currentSum = 0
         currentSum += n
         maxSum = max(maxSum, currentSum)
     return maxSum
-        
 
 
 print(maximum_subarray([5,4,-1,7,8]))
