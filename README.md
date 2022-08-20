@@ -4,6 +4,8 @@ Data Structures and Algorithms Interview Prep
 
 GitHub: https://github.com/Extomvi/DataStructures-Algorithms-Prep
 
+Other prep: https://github.com/Extomvi/GDGUnilag/tree/master/Algorithms%26DataStructures
+
 ### Platform
 
 Code: Leetcode(https://leetcode.com/)
