@@ -33,10 +33,8 @@ Using lambda function to change each item in the row to the opposit(1 to 0); Bec
 
 def flippingImage(image):
     result = []
+    inverted = lambda x: 0 if x == 1 else 1
     for row in image:
-        #print(row)
-        #print(row[::-1])
-        inverted = lambda x: 0 if x == 1 else 1
         result.append(list(map(inverted, row[::-1])))
     return result
 
@@ -54,4 +52,5 @@ def flipAndInvertAnImage(image):
         result.append(invertedRow) #adding the list of inverted row into the result
     return result
 
+print(flippingImage([[1,1,0],[1,0,1],[0,0,0]]))
 print(flipAndInvertAnImage([[1,1,0],[1,0,1],[0,0,0]]))
