@@ -2,6 +2,7 @@
 Flipping an image:
 Given an n x n binary matrix image, flip the image horizontally, then invert it, and return the resulting image.
 """
+# Leetcode Easy: https://leetcode.com/problems/flipping-an-image/
 
 # image = [[1,1,0],[1,0,1],[0,0,0]]
 """
