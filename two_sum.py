@@ -1,7 +1,6 @@
 """
 Two sum
 """
-
 # Leetcode: https://leetcode.com/problems/two-sum/
 
 #Brute force O(n2)
