@@ -1,6 +1,8 @@
 """
 Longest common prefix in a list
 """
+# Leetcode: https://leetcode.com/problems/longest-common-prefix/
+
 def longestCommonPrefix(strs):
     if len(strs) == 1:
         return strs[0]
