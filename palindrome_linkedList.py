@@ -28,4 +28,9 @@ def is_palindrome(head):
         r -= 1
     return True
 
+#Constant space O(1)
+def is_palindromeL(head):
+    #continue 
+    return True
+
 print(is_palindrome([1,2,2,1]))
