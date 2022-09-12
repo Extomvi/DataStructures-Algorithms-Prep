@@ -29,6 +29,7 @@ def is_palindrome(head):
     return True
 
 #Constant space O(1)
+"""Using fast and slow pointers to find the palindrome linkedlist"""
 def is_palindromeL(head):
     #continue 
     return True
