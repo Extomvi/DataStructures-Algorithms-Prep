@@ -17,7 +17,7 @@ def climbingStairs(n):
     for i in range(n - 1):
         temporary = one
         one = one + two
-        one = temporary
+        two = temporary
 
     return one
 
