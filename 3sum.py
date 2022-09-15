@@ -1,6 +1,8 @@
 """
 3 sum of a number
 """
+# Leetcode: https://leetcode.com/problems/3sum/
+
 #brute force
 def three_sum(nums):
     n = len(nums)
