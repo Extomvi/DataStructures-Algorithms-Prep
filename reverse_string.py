@@ -2,9 +2,7 @@
 Reversing a word in a string
 """
 
-# from test import testEqual
-# from pythonds.basic import Stack
-import stack
+from stack import Stack
 
 def revstring(mystr):
     myStack = Stack()
@@ -16,6 +14,6 @@ def revstring(mystr):
     return revString
         
 
-testEqual(revstring('apple'),'elppa')
-testEqual(revstring('x'),'x')
-testEqual(revstring('1234567890'),'0987654321')
+print(revstring('apple'),'elppa')
+print(revstring('x'),'x')
+print(revstring('1234567890'),'0987654321')
