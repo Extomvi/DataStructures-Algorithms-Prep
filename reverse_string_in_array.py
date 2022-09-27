@@ -1,5 +1,5 @@
 """
-Reverse string in constant space and in constant time
+Reverse string in an array in constant space and in constant time
 """
 
 #Leetcode: https://leetcode.com/problems/reverse-string/
