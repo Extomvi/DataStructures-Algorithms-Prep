@@ -5,7 +5,7 @@ The challenge then is to write an algorithm that will read a string of parenthes
 from stack import Stack
 
 #For different types of parentheses
-
+# O(N) Solution
 def checks(open, close):
     opener = "({["
     closer = ")}]"
