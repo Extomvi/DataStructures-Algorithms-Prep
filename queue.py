@@ -1,5 +1,5 @@
 """
-Implementing a queue (FIFO)
+Implementing a queue (FIFO) with linked list
 """
 class Node:
     def __init__(self, value):
