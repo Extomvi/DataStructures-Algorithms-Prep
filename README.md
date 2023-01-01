@@ -10,6 +10,10 @@ Other prep: https://github.com/Extomvi/GDGUnilag/tree/master/Algorithms%26DataSt
 
 Code: Leetcode(https://leetcode.com/)
 
+Replit: https://replit.com/@ExcelTomiwa/BloombergInterviewPrep
+
+Trello Guide - Map: https://trello.com/b/fgOuI1IA/blooms-prep
+
 Whiteboarding: Miro(https://miro.com/)
 
 ## Guide - Speak_
