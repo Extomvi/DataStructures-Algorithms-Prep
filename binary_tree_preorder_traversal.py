@@ -26,10 +26,8 @@ class Solution:
         if not node:
             return None
         stack.append(node.val)
-        if node.left:
-            self.bfs(node.left, stack)
-        if node.right:
-            self.bfs(node.right, stack)
+        self.bfs(node.left, stack)
+        self.bfs(node.right, stack)
 
 # iterative
 class Solution:
@@ -41,8 +39,6 @@ class Solution:
         while stack:
             node = stack.pop()
             output.append(node.val)
-            if node.right:
-                stack.append(node.right)
-            if node.left:
-                stack.append(node.left)
+            stack.append(node.right)
+            stack.append(node.left)
         return output
