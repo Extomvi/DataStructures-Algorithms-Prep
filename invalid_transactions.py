@@ -1,3 +1,15 @@
+"""
+Invalid Transaction:https://leetcode.com/problems/invalid-transactions/
+
+A transaction is possibly invalid if:
+
+the amount exceeds $1000, or;
+if it occurs within (and including) 60 minutes of another transaction with the same name in a different city.
+You are given an array of strings transaction where transactions[i] consists of comma-separated values representing the name, time (in minutes), amount, and city of the transaction.
+
+Return a list of transactions that are possibly invalid. You may return the answer in any order.
+"""
+
 from collections import defaultdict
 #First way
 def invalidTrans(transactions):
@@ -15,7 +27,7 @@ def invalidTrans(transactions):
                 invalid[time][name] = [city]
             else:
                 invalid[time][name].append[city]
-    print(invalid)
+   
     for trans in transactions:
         name, time, amount, city = trans.split(',')
         time, amount = int(time), int(amount)
@@ -30,7 +42,6 @@ def invalidTrans(transactions):
                 continue
             if len(invalid[t][name]) > 1 or (invalid[t][name][0] != name):
                 result.append(trans)
-                print(trans)
                 break
 
     return result
@@ -54,7 +65,6 @@ def invalidTransaction(transactions):
                     result.add(invalid[name][id])
                 id -= 1
         invalid[name].append(i)
-    print(invalid, result)
 
     return [','.join(transactions[i]) for i in result]
 
