@@ -1,19 +1,19 @@
 /**
  * @return {Function}
  */
-// Function
+// Function syntax
 var createHelloWorld = function() {
     return function(...args) {
         return "Hello World"
     }
 };
 
-// Arrow
+// Arrow Syntax
 var createHelloWorld = function() {
     return () => "Hello World"
 };
 
-// Arrow + Arguments
+// Arrow Syntax + Arguments
 var createHelloWorld = function() {
     return (...args) => "Hello World"
 };
