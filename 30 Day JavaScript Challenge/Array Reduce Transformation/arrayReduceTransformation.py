@@ -13,6 +13,16 @@ var reduce = function(nums, fn, init) {
     return result
 };
 
+// Using the forEach method
+var reduce = function(nums, fn, init) {
+    let result = init;
+
+    nums.forEach((val) => {
+        result = fn(result, val)
+    });
+    return result
+};
+
 // Using .reduce inbuilt function
 var reduce = function(nums, fn, init) {
     return nums.reduce(fn, init);
