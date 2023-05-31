@@ -3,7 +3,7 @@ Two sum
 """
 # Leetcode: https://leetcode.com/problems/two-sum/
 
-#Brute force O(n2)
+#Brute force O(N^2)
 def twoSum(nums, target):
     #bruteforce solution
     for i in range(len(nums)):
@@ -12,7 +12,7 @@ def twoSum(nums, target):
             if nums[j] == val:
                 return [i,j]
 
-#Optimized code
+# Optimized code O(N)
 def twoSum(nums, target):
     #Using a dictionary O(N)
     seen = {}
@@ -22,7 +22,7 @@ def twoSum(nums, target):
             return [seen[complement], i]
         seen[nums[i]] = i
 
-#Using HashMap
+# Using HashMap O(N)
 def two_sum(nums, target):
     prevMap = {} #key:valye pair
     for i, n in enumerate(nums):
