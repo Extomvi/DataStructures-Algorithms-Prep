@@ -4,6 +4,7 @@ Merge interval (https://leetcode.com/problems/merge-intervals/)
 
 # Using the sorting method and comparing values
 # Time complexity is O(nlogn) -> because of the sorting operation
+# Space complexity is O(n)
 
 def merge_sort(intervals):
     #sorting the intervals which is log n
