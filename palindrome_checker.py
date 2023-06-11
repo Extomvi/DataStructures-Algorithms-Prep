@@ -1,6 +1,8 @@
 """
 Palindrome checker for strings
 """
+# Time complexity is O(n)
+# Space complexity is O(n)
 from collections import deque
 def palchecker(aString):
     q = deque()
