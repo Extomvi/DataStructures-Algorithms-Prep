@@ -1,6 +1,7 @@
 """
 Reversing a word in a string
 """
+# Time complexoty is O(n) | Space complexity is O(n)
 
 from stack import Stack
 
