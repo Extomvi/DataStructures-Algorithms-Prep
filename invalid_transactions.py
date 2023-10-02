@@ -1,10 +1,10 @@
 """
-Invalid Transaction:https://leetcode.com/problems/invalid-transactions/
+Invalid Transaction: https://leetcode.com/problems/invalid-transactions/
 """
 
 from collections import defaultdict
 
-#First way
+# First approach
 def invalidTrans(transactions):
     invalid = {}
     result = []
